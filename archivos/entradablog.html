@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/imagenes/Logo.jpg">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <!--Boostrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"/>
+    <!--FontAwesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!--CSS Personal-->
+  <link rel="stylesheet" href="/estilos/blog.css">
+  <title>Barber-Shop</title>
+</head>
+
+<body class=" m-0 letra">
+
+  <!-- NavBar-->
+  <section class="container-sm mb-5">
+    <nav class=" navbar-expand-lg navbar navbar-dark fondo fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand flex-shrink-0" href="#">
+          <img src="/imagenes/Logo.jpg" alt="" width="90" height="90">
+        </a>
+        <h1 class="d-none d-md-block text-white flex-shrink-0">Barber-Shop</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav flex-shrink-1 mb-2 mx-2 btn-lg">
+            <li class="nav-item">
+              <a class="nav-link active button1" aria-current="page" href="/index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active button1" aria-current="page" href="/archivos/login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn nav-link active button1 tamaño" aria-current="page" data-bs-toggle="modal" data-bs-target="#Suscripcion">Suscripción</button>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle button1" id="galeria" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page" href="/archivos/contacto.html">Galeria</a>
+              <ul class="dropdown-menu" aria-labelledby="galeria">
+                <li><a class="dropdown-item" href="/archivos/galeriacortes.html">Cortes</a></li>
+                <li><a class="dropdown-item" href="/archivos/galeriaproductos.html">Productos</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active button1" aria-current="page" href="/archivos/contacto.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active button1" aria-current="page" href="/archivos/aboutUs.html">Acerca De Nosotros</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--Suscripcion-->
+  <div class="modal fade" id="Suscripcion" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header ">
+              <h5 class="modal-title text-decoration-underline" id="modalTitle">Suscribite</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex justify-content-center">
+            <form>
+              <div class="my-2"><input class="form-control" type="text" placeholder="Nombre y Apellido" required></div>
+              <div><input type="email" class="form-control" placeholder="Correo Electronico" required></div>
+              <div class="my-2"><input class="form-control" type="tel" placeholder="Telefono/Celular" maxlength="13" required></div>
+              <div><input type="number" class="form-control" placeholder="Edad" maxlength="2" required></div>
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-center">
+            <button type="button" class="btn boton1">Enviar</button>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!--Titulos-->
+  <div class="container-fluid container-sm py-4 d-flex flex-column align-items-center justify-content-center titulo letra">
+    <h1 class="display-1 text-center text-white ">Barber-Shop</h1>
+    <h2 class="text-center text-white pl-5">Tu lugar, tu estilo</h2>
+  </div>
+  <!--Blog-->
+  <main>
+     <div class="entrada-blog">
+        <div class="titulo-entrada display-4 text-center text-white"> Cuidados para el pelo largo de hombre</div>
+        <div class="Brad row my-3 text-center justify-content-center">
+          <img src="/imagenes/como-dejarse-pelo-largo-hombres-gel-fijador-cuidado-del-cabello-imagen.png" alt="Pelo" class="col-12 col-md-9 p-0">
+          <small class="text-white col-12 text-center">Los cuidados para el pelo largo de hombre es una tarea muy sencilla y saludable. En nuestro post te enseñaremos cómo debes cuidar diariamente tu pelo para conseguir los cuidados de un profesional. Te daremos consejos muy fáciles y efectivos de implementar en tu día a día si tu deseo es tener una melena radiante y larga. Si has decidido cuidar tu cabello y dejarlo crecer, no te puedes perder todo lo que hoy traemos para ti sobre cómo cuidar el pelo largo de hombre para lograr un estilo original y agradable.</small>
+        </div>
+        <div class="descripcion-entrada small text-right pl-1 text-muted container">Subido por <a href="/archivos/error404.html">Bruno Juárez</a> - 18/07/2020
+          <a href="/archivos/error404.html" style="font-size:12px" class="fa fa-facebook text-light btn btn-primary mx-1 p-1"> Compartir</a>
+          <a href="/archivos/error404.html" style="font-size:12px" class="fa fa-twitter text-light btn btn-info mx-1 p-1"> Tweet</a>
+          <a href="/archivos/error404.html" style="font-size:12px" class="fa fa-whatsapp text-light btn btn-success mx-1 p-1"> Compartir</a>
+        </div>
+        <div class="main-entrada text-white col-12 col-md-9 mx-auto mt-3">
+            <h3>Cuidados para el cabello largo del hombre</h3>
+            <p>¿Crees que cuidar el pelo largo en los hombres es muy difícil?  Sin duda, tener el pelo largo implica un poco más de dedicación en los cuidados de tu cabello.  Pero no es una tarea imposible de realizar si realizas los pasos correctos.</p>
+            <p>Si te has decidido tener el pelo largo, debes tener paciencia porque el crecimiento del pelo es un proceso lento. Los cuidados para lograr tener una melena larga son muy simples y comienzan por lavar con un champú que se adapte a tu tipo de cabello.</p>
+            <p>También implica el corte de las puntas y otros pequeños detalles que no tomas en cuenta a la hora de lavarlo. A continuación encontrarás los cuidados para el pelo largo de hombre para lucir una melena larga de hombre.</p>
+            <h3>Consejos de lavado para cuidar el pelo largo de hombre</h3>
+            <p>Sigue nuestras recomendaciones para el cuidado de los cabellos largos en hombre. Te dejamos los 5 mejores consejos para cuidar tu cabello en cada lavado como un profesional.</p>
+            <ol>
+                <li>Nuestro primer consejo es que no debilites tu cabello lavándolo diariamente. El lavar el pelo todos los días elimina los aceites naturales de tu cabello que te ofrecen fortalecimiento y protección.  Solo debes lavarlo 3 a 4 veces por semana.</li>
+                <li>Es importante que busques un champú y acondicionador que tenga lo que tu necesita necesita. Si está grasoso y fino busca productos naturales. Para la debilidad, los productos que contengan colágeno y queratina son muy buenos.</li>
+                <li>Cortar las puntas cada dos meses es muy beneficioso porque el cabello sigue creciendo y al mismo tiempo lucirás una melena más saludable sin puntas quemadas y abiertas.</li>
+                <li>Otro consejo importante es que utilices peines de puntas anchas para evitar que se atasquen cuando cepilles tu pelo.</li>
+                <li>No laves tu melena con agua caliente para no resecar el cabello. Al lavar con agua caliente deshidratas y también debilitas la raíz de tu pelo.</li>
+            </ol>
+            <h3>Cómo hacer crecer el cabello en el hombre</h3>
+            <p>Para tener un pelo largo y saludable debes tener en cuenta todos los días las siguientes recomendaciones que te ayudaran hacer crecer tu cabello de manera extraordinaria. Acompáñanos hasta el final para conocer un poco más sobre la hidratación del cabello masculino.</p>
+            <h4>Peina diariamente tu cabello</h4>
+            <p>El peinar dos veces al día tu cabello ayuda a estimula los folículos capilares y esto permite un mejor rendimiento en el crecimiento. Luego de cada lavado solo peina unos minutos con suavidad para evitar la caída. Si tu cabello esta enredado usa aceites esenciales o cepillos de dientes anchos para solucionar el problema.</p>
+            <h4>Trenza tu cabello para dormir</h4>
+            <p>Las trenzas no solo ayudan a mantener y darle más volumen a tus risos. Estas también ayudan a estimular el crecimiento del cabello. Al usar trenzas todas las noches para dormir notaras que en unas semanas tu cabello crecerá mucho más rápido y con mayor fuerza.</p>
+            <h4>Ingiere más agua</h4>
+            <p>El ingerir mucha agua es ventajoso para tu salud y para el fortalecimiento del cabello en los hombres. Mantenerte hidratado es de suma importancia para el crecimiento continuo de tu cabello. Puedes ingerir el líquido en jugos naturales o infusiones calientes, o simplemente tomando 8 vasos de aguas diarios como mínimo.</p>
+            <p>El consumo de agua no solo beneficia a la salud corporal, sino también al desarrollo de un cabello más sano. El flujo sanguíneo que recorre el cuerpo y llega hasta el cabello requiere de un equilibrio en la ingesta de agua diaria para funcionar de manera adecuada.</p>
+            <h4>Toma vitaminas</h4>
+            <p>Si tu cabello se cae con abundancia cuando lo cepillas, entonces es una señal de que tu pelo necesita vitaminas. Puedes tomar capsulas de vitamina o también ingerir en tus comidas diarias frutas como naranjas, manzanas, mandarinas y pescado. Estos alimentos contienen muchos nutrientes vitamínicos que ayudan al fortalecimiento del cabello.</p>
+            <p>La vitamina E es esencial al momento de la recuperación y el fortalecimiento el cabello.</p>
+            <h4>Evita el estrés</h4>
+            <p>El estrés es un problema muy grave cuando tu objetivo es que tu cabello crezca rápido y abundante. El estrés puede causar que se te caiga el cabello y que su crecimiento sea más lento. Nuestro consejo es que evites el estrés en casa o en el trabajo.</p>
+            <p>Practica terapias de meditación y usa té para controlar el estrés originado por cualquier situación.</p>
+            <h4>No abuses del secador y de los productos de calor</h4>
+            <p>Usar regularmente las planchas o secador de cabello causa muchos daños en el cabello. Las puntas se parten, el cabello se deshidrata y tiende a caerse por el calor y maltrato que estos productos generan en tu pelo.</p>
+            <h4>Hidratación en el pelo largo en los hombres</h4>
+            <p>¿Sabías que para lucir un cabello largo, hidratado y fuerte debes comer alimentos saludables y sin tanto azucares? Comer saludable ayuda en el crecimiento y fortaleciendo del cabello evitando la caída.</p>
+            <p>Para tener un cabelloo hidratado debes visitar regularmente la peluquería para conocer qué tipo de tratamientos puedes usar según tu tipo de cabello. Si presentas caída extrema o problemas de caspa te sugerimos visitar a un médico especialista para que te sugiera un tratamiento con productos adecuados.</p>
+            <p>Te recomendamos usar semanalmente ampollas hidratantes para mejor el fortalecimiento, crecimiento y la hidratación del cabello.</p>
+            <p>Hemos llegado al final de nuestro post de los cuidados para el pelo largo de hombre. Deseamos que nuestros consejos te ayuden a lograr tus objetivos de cuidados y crecimiento de tu cabello.</p>            
+        </div>
+    </div>
+    <!--Peluquero Famoso-->
+    <div class="autor-blog col-12 col-md-6 pl-5 my-3" id="autor">
+        <div class="autor-blog mb-3" style="max-width: 540px;">
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img src="/imagenes/cabello largo.png" class="card-img rounded-circle" alt="Nelson Montz">
+              </div>
+              <div class="col-8">
+                <div class="card-body">
+                  <h5 class="card-title text-black">Bruno Juárez</h5>
+                  <p class="card-text text-black">Estudiante De Programación En Rolling Code School. Peluquero Profesional Recibido En la Universidad De Harvard</p>
+                  <p class="card-text text-black"><small >Miembro hace 4 años</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+    <div class="formulario-com container my-5">
+      <div class="dropdown">
+        <a class="btn btn-light underline boton1 mt-1" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <u>Comentar como invitado</u>
+        </a>
+          <div class="dropdown-menu w-100 " aria-labelledby="dropdownMenuLink">
+            <form class="text-black bg-white">
+              <fieldset class="m-3">
+                <legend>Comentar</legend>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputName">Nombre</label>
+                  <input type="text" class="form-control" id="inputName" placeholder="Ingresar Nombre..." required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputLastName">Apellido</label>
+                  <input type="text" class="form-control" id="inputLastName" placeholder="Ingresar Apellido..." required>
+                </div>
+              </div>
+              <div class="form-group p-0">
+                <label for="inputMessage">Comentario</label>
+                <input type="text" class="form-control" id="inputMessage" placeholder="Escriba su comentario..." required>
+              </div>
+              <div class="text-center mt-3">
+                <a href="/archivos/error404.html" type="submit" class="btn btn-primary">Comentar <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M6 12.796L11.481 8 6 3.204v9.592zm.659.753l5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+                </svg></a>
+              </div>
+              </fieldset>
+            </form>
+          </div>
+      </div>
+    </div>
+    <!--Comentarios-->
+    <div class="comentarios">
+        <div class="titulo-comentarios m-4 h2 text-white text-decoration-underline">
+            Comentarios
+    </div>
+    <div class="comentario container">
+        <div class="card mb-2">
+          <div class="row align-items-center">
+            <div class="col-3 col-md-1 ml-3">
+              <img src="/imagenes/gallardo.png" class="card-img rounded-circle w-100" alt="id_persona">
+            </div>
+            <div class="col-8">
+              <div class="card-body p-1">
+                <h5 class="card-title mb-0">Marcelo Gallardo</h5>
+                <p class="card-text">Pésima atención. Me cortaron mejor en la villa 31.</p>
+                <p class="card-text"><small class="text-muted">Hace 12 horas - <a href="#" class="pulgar-arriba"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+                </a>1<a href="#" class="pulgar-abajo"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28v1c.563 0 .901.272 1.066.56.086.15.121.3.121.416 0 .12-.035.165-.04.17l-.354.353.353.354c.202.202.407.512.505.805.104.312.043.44-.005.488l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.415-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.353.352.373.714.267 1.021-.122.35-.396.593-.571.651-.653.218-1.447.224-2.11.164a8.907 8.907 0 0 1-1.094-.17l-.014-.004H9.62a.5.5 0 0 0-.595.643 8.34 8.34 0 0 1 .145 4.725c-.03.112-.128.215-.288.255l-.262.066c-.306.076-.642-.156-.667-.519-.075-1.081-.239-2.15-.482-2.85-.174-.502-.603-1.267-1.238-1.977C5.597 8.926 4.715 8.23 3.62 7.93 3.226 7.823 3 7.534 3 7.28V3.279c0-.26.22-.515.553-.55 1.293-.138 1.936-.53 2.491-.869l.04-.024c.27-.165.495-.296.776-.393.277-.096.63-.163 1.14-.163h3.5v-1H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg></a> 12</small></p> 
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="comentario container">
+        <div class="card mb-2">
+          <div class="row align-items-center">
+            <div class="col-3 col-md-1 ml-3">
+              <img src="/imagenes/o_boca_juniors_martin_palermo-898.png" class="card-img rounded-circle w-100" alt="id_persona">
+            </div>
+            <div class="col-8">
+              <div class="card-body p-1">
+                <h5 class="card-title mb-0">Martín Palermo</h5>
+                <p class="card-text">Mi pelo está espectacular desde que los leo! Besos</p>
+                <p class="card-text"><small class="text-muted">Hace 2 años - <a href="#" class="pulgar-arriba"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+                </a>8<a href="#" class="pulgar-abajo"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28v1c.563 0 .901.272 1.066.56.086.15.121.3.121.416 0 .12-.035.165-.04.17l-.354.353.353.354c.202.202.407.512.505.805.104.312.043.44-.005.488l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.415-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.353.352.373.714.267 1.021-.122.35-.396.593-.571.651-.653.218-1.447.224-2.11.164a8.907 8.907 0 0 1-1.094-.17l-.014-.004H9.62a.5.5 0 0 0-.595.643 8.34 8.34 0 0 1 .145 4.725c-.03.112-.128.215-.288.255l-.262.066c-.306.076-.642-.156-.667-.519-.075-1.081-.239-2.15-.482-2.85-.174-.502-.603-1.267-1.238-1.977C5.597 8.926 4.715 8.23 3.62 7.93 3.226 7.823 3 7.534 3 7.28V3.279c0-.26.22-.515.553-.55 1.293-.138 1.936-.53 2.491-.869l.04-.024c.27-.165.495-.296.776-.393.277-.096.63-.163 1.14-.163h3.5v-1H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg></a> 0</small></p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="comentario container">
+        <div class="card mb-2">
+          <div class="row align-items-center">
+            <div class="col-3 col-md-1 ml-3">
+              <img src="/imagenes/messi.png" class="card-img rounded-circle w-100" alt="id_persona">
+            </div>
+            <div class="col-8">
+              <div class="card-body p-1">
+                <h5 class="card-title mb-0">Lionel Messi</h5>
+                <p class="card-text">¿Que decís gordito?</p>
+                <p class="card-text"><small class="text-muted">Hace 10 años - <a href="#" class="pulgar-arriba"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+                </a>56<a href="#" class="pulgar-abajo"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28v1c.563 0 .901.272 1.066.56.086.15.121.3.121.416 0 .12-.035.165-.04.17l-.354.353.353.354c.202.202.407.512.505.805.104.312.043.44-.005.488l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.415-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.353.352.373.714.267 1.021-.122.35-.396.593-.571.651-.653.218-1.447.224-2.11.164a8.907 8.907 0 0 1-1.094-.17l-.014-.004H9.62a.5.5 0 0 0-.595.643 8.34 8.34 0 0 1 .145 4.725c-.03.112-.128.215-.288.255l-.262.066c-.306.076-.642-.156-.667-.519-.075-1.081-.239-2.15-.482-2.85-.174-.502-.603-1.267-1.238-1.977C5.597 8.926 4.715 8.23 3.62 7.93 3.226 7.823 3 7.534 3 7.28V3.279c0-.26.22-.515.553-.55 1.293-.138 1.936-.53 2.491-.869l.04-.024c.27-.165.495-.296.776-.393.277-.096.63-.163 1.14-.163h3.5v-1H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg></a> 2</small></p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comentario container">
+        <div class="card mb-2">
+          <div class="row align-items-center">
+            <div class="col-3 col-md-1 ml-3">
+              <img src="/imagenes/mujer.jpg" class="card-img rounded-circle w-100" alt="id_persona">
+            </div>
+            <div class="col-8">
+              <div class="card-body p-1">
+                <h5 class="card-title mb-0">Cristina Tejerina</h5>
+                <p class="card-text">Servicio de atención bueno, le doy 8 puntos</p>
+                <p class="card-text"><small class="text-muted">Hace 9 horas - <a href="#" class="pulgar-arriba"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+                </a> 24 <a href="#" class="pulgar-abajo"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28v1c.563 0 .901.272 1.066.56.086.15.121.3.121.416 0 .12-.035.165-.04.17l-.354.353.353.354c.202.202.407.512.505.805.104.312.043.44-.005.488l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.415-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.353.352.373.714.267 1.021-.122.35-.396.593-.571.651-.653.218-1.447.224-2.11.164a8.907 8.907 0 0 1-1.094-.17l-.014-.004H9.62a.5.5 0 0 0-.595.643 8.34 8.34 0 0 1 .145 4.725c-.03.112-.128.215-.288.255l-.262.066c-.306.076-.642-.156-.667-.519-.075-1.081-.239-2.15-.482-2.85-.174-.502-.603-1.267-1.238-1.977C5.597 8.926 4.715 8.23 3.62 7.93 3.226 7.823 3 7.534 3 7.28V3.279c0-.26.22-.515.553-.55 1.293-.138 1.936-.53 2.491-.869l.04-.024c.27-.165.495-.296.776-.393.277-.096.63-.163 1.14-.163h3.5v-1H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg></a> 2</small></p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="comentario container">
+        <div class="card mb-2">
+          <div class="row align-items-center">
+            <div class="col-3 col-md-1 ml-3">
+              <img src="/imagenes/anonimo.jpg" class="card-img rounded-circle w-100" alt="">
+            </div>
+            <div class="col-8">
+              <div class="card-body p-1">
+                <h5 class="card-title mb-0">Anonimo</h5>
+                <p class="card-text">Excelente atención</p>
+                <p class="card-text"><small class="text-muted">Hace 18 horas - <a href="#" class="pulgar-arriba"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-up" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.956 1.745C7.021.81 7.908.087 8.864.325l.261.066c.463.116.874.456 1.012.965.22.816.533 2.511.062 4.51a9.84 9.84 0 0 1 .443-.051c.713-.065 1.669-.072 2.516.21.518.173.994.681 1.2 1.273.184.532.16 1.162-.234 1.733.058.119.103.242.138.363.077.27.113.567.113.856 0 .289-.036.586-.113.856-.039.135-.09.273-.16.404.169.387.107.819-.003 1.148a3.163 3.163 0 0 1-.488.901c.054.152.076.312.076.465 0 .305-.089.625-.253.912C13.1 15.522 12.437 16 11.5 16v-1c.563 0 .901-.272 1.066-.56a.865.865 0 0 0 .121-.416c0-.12-.035-.165-.04-.17l-.354-.354.353-.354c.202-.201.407-.511.505-.804.104-.312.043-.441-.005-.488l-.353-.354.353-.354c.043-.042.105-.14.154-.315.048-.167.075-.37.075-.581 0-.211-.027-.414-.075-.581-.05-.174-.111-.273-.154-.315L12.793 9l.353-.354c.353-.352.373-.713.267-1.02-.122-.35-.396-.593-.571-.652-.653-.217-1.447-.224-2.11-.164a8.907 8.907 0 0 0-1.094.171l-.014.003-.003.001a.5.5 0 0 1-.595-.643 8.34 8.34 0 0 0 .145-4.726c-.03-.111-.128-.215-.288-.255l-.262-.065c-.306-.077-.642.156-.667.518-.075 1.082-.239 2.15-.482 2.85-.174.502-.603 1.268-1.238 1.977-.637.712-1.519 1.41-2.614 1.708-.394.108-.62.396-.62.65v4.002c0 .26.22.515.553.55 1.293.137 1.936.53 2.491.868l.04.025c.27.164.495.296.776.393.277.095.63.163 1.14.163h3.5v1H8c-.605 0-1.07-.081-1.466-.218a4.82 4.82 0 0 1-.97-.484l-.048-.03c-.504-.307-.999-.609-2.068-.722C2.682 14.464 2 13.846 2 13V9c0-.85.685-1.432 1.357-1.615.849-.232 1.574-.787 2.132-1.41.56-.627.914-1.28 1.039-1.639.199-.575.356-1.539.428-2.59z"/></svg>
+                </a> 12 <a href="#" class="pulgar-abajo"><svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-hand-thumbs-down" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" d="M6.956 14.534c.065.936.952 1.659 1.908 1.42l.261-.065a1.378 1.378 0 0 0 1.012-.965c.22-.816.533-2.512.062-4.51.136.02.285.037.443.051.713.065 1.669.071 2.516-.211.518-.173.994-.68 1.2-1.272a1.896 1.896 0 0 0-.234-1.734c.058-.118.103-.242.138-.362.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.094 2.094 0 0 0-.16-.403c.169-.387.107-.82-.003-1.149a3.162 3.162 0 0 0-.488-.9c.054-.153.076-.313.076-.465a1.86 1.86 0 0 0-.253-.912C13.1.757 12.437.28 11.5.28v1c.563 0 .901.272 1.066.56.086.15.121.3.121.416 0 .12-.035.165-.04.17l-.354.353.353.354c.202.202.407.512.505.805.104.312.043.44-.005.488l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.415-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.353.352.373.714.267 1.021-.122.35-.396.593-.571.651-.653.218-1.447.224-2.11.164a8.907 8.907 0 0 1-1.094-.17l-.014-.004H9.62a.5.5 0 0 0-.595.643 8.34 8.34 0 0 1 .145 4.725c-.03.112-.128.215-.288.255l-.262.066c-.306.076-.642-.156-.667-.519-.075-1.081-.239-2.15-.482-2.85-.174-.502-.603-1.267-1.238-1.977C5.597 8.926 4.715 8.23 3.62 7.93 3.226 7.823 3 7.534 3 7.28V3.279c0-.26.22-.515.553-.55 1.293-.138 1.936-.53 2.491-.869l.04-.024c.27-.165.495-.296.776-.393.277-.096.63-.163 1.14-.163h3.5v-1H8c-.605 0-1.07.08-1.466.217a4.823 4.823 0 0 0-.97.485l-.048.029c-.504.308-.999.61-2.068.723C2.682 1.815 2 2.434 2 3.279v4c0 .851.685 1.433 1.357 1.616.849.232 1.574.787 2.132 1.41.56.626.914 1.28 1.039 1.638.199.575.356 1.54.428 2.591z"/>
+                </svg></a> 8</small></p> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Footer-->
+  <footer class="container-fluid row bg-black m-auto">
+    <div class="text-center col-lg-4 col-md-6"">
+        <a href=" #"><img class="p-3" src="/imagenes/Logo.jpg" width="125" height="125" alt="Logo"></a>
+    </div>
+    <div class="d-flex align-items-center justify-content-center col-lg-4 col-md-6"">
+        <a href="/archivos/error404.html" class="fa fa-facebook"></a>
+      <a href="/archivos/error404.html" class="fa fa-twitter"></a>
+      <a href="archivos/error404.html" class="fa fa-youtube"></a>
+      <a href="/archivos/error404.html" class="fa fa-instagram"></a>
+      <a href="/archivos/error404.html" class="fa fa-pinterest"></a>
+    </div>
+    <div class="p-3 text-white col-lg-4">
+      <p class="p-0 m-0 text-center">Desarollado por Grupo N°1</p>
+      <p class="p-0 m-0 text-center">BarberShop@gmail.com</p>
+      <a class="p-0 m-0 d-flex justify-content-center" href="/archivos/error404.html">Aviso Legal</a>
+    </div>
+  </footer>
+  <!-- JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>    
+</body>
+
+</html>

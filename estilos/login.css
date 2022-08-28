@@ -1,0 +1,67 @@
+body{
+    background: url("/imagenes/wallpaperbetter.com_1366x768.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fondo{
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+.letra{
+    font-family: 'Kanit', sans-serif;
+}
+/*NavBar*/
+.button1:hover,.button1:active{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/*Suscripcion*/
+.tamaño{
+    font-size: 20px;
+}
+.modal-content-s{
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+.modal-header-s{
+    background-color: whitesmoke;
+}
+.boton1{
+    color: white;
+    border: 1px solid white;
+}
+.boton1:visited, .boton1:link{
+    color: white;
+    border: 1px solid white;
+}
+.boton1:hover, .boton1:active{
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+}
+#btn-send-gl,#btn-send-fb{
+    border: none;   
+}
+#btn-send-gl{
+    background-color:#F02B24;
+}
+#btn-send-fb{
+    background-color:#1935C7;
+}
+.modal-header-l{
+    background-image: linear-gradient(60deg, #8a2626 0%, #c71b1b 100%);
+}
+.modal-content-l{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.imagen{
+    width: 30vw;
+    height: 50vw;
+}
+.faa{
+    font-size:2.5vw;
+    padding:0 8px;
+    color: white;
+}
+.faa:hover, .fa:active{
+    color: rgb(139, 9, 9);
+}

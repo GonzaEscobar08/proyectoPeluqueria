@@ -1,0 +1,38 @@
+body{
+    background: url("/imagenes/wallpaperbetter.com_1366x768.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fondo{
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+.letra{
+    font-family: 'Kanit', sans-serif;
+}
+/*Tamaño de letra*/
+.letra h1{
+    font-size: 4vw;
+}
+.letra p{
+    font-size: 2vw;
+}
+.letra a{
+    font-size: 1.5vw;
+}
+.imagen{
+    width: 55vw;
+    height: 35vw;
+    border-radius: 20%;
+}
+/*Botón*/
+.boton:link, .boton:visited{
+    color:black;
+    border: 1px solid white;
+    background-color: white;
+}
+.boton:hover, .boton:active{
+    color: white;
+    border: 1px solid white;
+    background-color: black;
+}

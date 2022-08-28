@@ -1,0 +1,129 @@
+body{
+    background: url("/imagenes/wallpaperbetter.com_1366x768.jpg") no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.fondo{
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+.letra{
+    font-family: 'Kanit', sans-serif;
+}
+/*Navbar*/
+.button1:hover,.button1:active{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/*Suscripcion*/
+.tamaño{
+    font-size: 20px;
+}
+.modal-content{
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+.modal-header{
+    background-color: whitesmoke;
+}
+.boton1{
+    color: white;
+    border: 1px solid white;
+}
+.boton1:visited, .boton1:link{
+    color: white;
+    border: 1px solid white;
+}
+.boton1:hover, .boton1:active{
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+}
+/*Section*/
+.titulo h1{
+    width: auto;
+    height: auto;
+    margin-left: 1rem ;
+    margin-right: 1rem;
+    font-size: 11vw;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    border: 2px solid white;
+}
+.titulo h2{
+    width: auto;
+    height: auto;
+    font-size: 4vw;
+    margin-bottom: 2rem;
+    border: 2px solid white;
+}
+.subtitulo{
+    font-size: 3vw;
+}
+.columna{
+    height: auto;
+}
+.imagen{
+    width: 55vw;
+    height: 35vw;
+}
+.imagenblog{
+    width: 44,5vw;
+    height: 27vw;
+}
+/*Tabla*/
+table,th,td{
+    text-align: center;
+    border: 1px solid white;
+}
+th{
+    height: 100px;
+    text-transform: uppercase;
+    background-color: rgb(139, 9, 9);
+    color: white;
+}
+td{
+    height: 50px;
+}
+tr{
+    background-image: linear-gradient(rgb(139, 9, 9), rgb(0, 0, 0));
+}
+/*Botones*/
+.botonCol1:visited, .botonCol1:link{
+    color: white;
+    border: 1px solid white;
+}
+.botonCol1:hover, .botonCol1:active{
+    color:black;
+    border: 1px solid black;
+    background-color: white;
+}
+.botonCol2{
+    color: white;
+    border: 1px solid white;
+}
+.botonCol2:link, .botonCol2:visited{
+    color: white;
+    border: 1px solid white;
+}
+.botonCol2:hover, .botonCol2:active{
+    color:black;
+    border: 1px solid white;
+    background-color: white;
+}
+/*Iframe*/
+iframe{
+    width: 55vw;
+    height: 45vw;
+}
+.separador{
+    margin-top: 14vw;
+}
+/*Footer*/
+.fa{
+    font-size:2.5vw;
+    padding:0 8px;
+    color: white;
+}
+.fa:hover, .fa:active{
+    color: rgb(139, 9, 9);
+}
