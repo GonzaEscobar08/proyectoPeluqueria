@@ -133,4 +133,11 @@ iframe{
     .titulo h2{
         font-size: 9.5vw;
     }
+    .imagen{
+        width: 80vw;
+    }
+    .dimension{
+        width: 60vw;
+        margin: auto;
+    }
 }
