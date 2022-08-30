@@ -127,4 +127,10 @@ iframe{
         padding:0 8px;
         color: white;
     }
+    .titulo h1{
+        font-size: 13.7vw;
+    }
+    .titulo h2{
+        font-size: 9.5vw;
+    }
 }
