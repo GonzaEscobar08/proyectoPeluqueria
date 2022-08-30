@@ -63,12 +63,10 @@ body{
     height: auto;
 }
 .imagen{
-    width: 55vw;
-    height: 35vw;
+    object-fit: cover;
 }
 .imagenblog{
-    width: 44,5vw;
-    height: 27vw;
+    object-fit: cover;
 }
 /*Tabla*/
 table,th,td{
@@ -120,7 +118,7 @@ iframe{
 }
 /*Footer*/
 .fa{
-    font-size:2.5vw;
+    font-size:5vw;
     padding:0 8px;
     color: white;
 }
