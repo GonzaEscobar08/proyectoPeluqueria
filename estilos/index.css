@@ -107,6 +107,8 @@ tr{
 }
 /*Iframe*/
 iframe{
+    width: 50vw;
+    height: 50vw;
     object-fit: cover;
 }
 .separador{
