@@ -67,12 +67,13 @@ body{
 }
 /*Galeria*/
 .foto{
-    height: 30vw;
+    height: 40vw;
     width: auto;
     padding: 2px;
 }
 .card{
     background-color: rgb(139, 9, 9);
+    object-fit: cover;
 }
 /*Footer*/
 .fa{
@@ -82,4 +83,13 @@ body{
 }
 .fa:hover, .fa:active{
     color: rgb(139, 9, 9);
+}
+@media only screen and (max-width: 600px) {
+    .foto{
+        height: 55vw;
+    }
+    .card{
+        width: 60vw;
+        margin: auto;
+    }
 }

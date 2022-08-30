@@ -68,6 +68,7 @@ body{
 /*Galeria*/
 .card{
     background-color: rgb(139, 9, 9);
+    object-fit: cover;
 }
 
 /*Footer*/
@@ -78,4 +79,10 @@ body{
 }
 .fa:hover, .fa:active{
     color: rgb(139, 9, 9);
+}
+@media only screen and (max-width: 600px) {
+    .card{
+        width: 60vw;
+        margin: auto;
+    }
 }
