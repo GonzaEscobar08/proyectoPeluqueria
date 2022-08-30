@@ -56,9 +56,6 @@ body{
     margin-bottom: 2rem;
     border: 2px solid white;
 }
-.subtitulo{
-    font-size: 3vw;
-}
 .columna{
     height: auto;
 }
@@ -110,18 +107,24 @@ tr{
 }
 /*Iframe*/
 iframe{
-    width: 55vw;
-    height: 45vw;
+    object-fit: cover;
 }
 .separador{
     margin-top: 14vw;
 }
 /*Footer*/
 .fa{
-    font-size:5vw;
+    font-size:4vw;
     padding:0 8px;
     color: white;
 }
 .fa:hover, .fa:active{
     color: rgb(139, 9, 9);
+}
+@media only screen and (max-width: 600px) {
+    .fa{
+        font-size:5.5vw;
+        padding:0 8px;
+        color: white;
+    }
 }
