@@ -81,6 +81,9 @@ img.center {
     background-color: rgba(255, 255, 255, 0);
     padding: 1vw;
 }
+.imagen{
+    object-fit: cover;
+}
 .card{
     background-color: rgba(255, 255, 255);
 }
@@ -108,10 +111,26 @@ img.center {
 }
 /*Footer*/
 .fa{
-    font-size:2.5vw;
+    font-size:4vw;
     padding:0 8px;
     color: white;
 }
 .fa:hover, .fa:active{
     color: rgb(139, 9, 9);
+}
+@media only screen and (max-width: 600px) {
+    .fa{
+        font-size:5.5vw;
+        padding:0 8px;
+        color: white;
+    }
+    .titulo h1{
+        font-size: 13.7vw;
+    }
+    .titulo h2{
+        font-size: 9.5vw;
+    }
+    .titulo h3{
+        font-size: 7vw;
+    }
 }

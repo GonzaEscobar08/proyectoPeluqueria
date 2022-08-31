@@ -81,8 +81,25 @@ body{
     color: rgb(139, 9, 9);
 }
 @media only screen and (max-width: 600px) {
+    .foto{
+        height: 55vw;
+    }
     .card{
         width: 60vw;
         margin: auto;
+    }
+    .fa{
+        font-size:5.5vw;
+        padding:0 8px;
+        color: white;
+    }
+    .titulo h1{
+        font-size: 13.7vw;
+    }
+    .titulo h2{
+        font-size: 9.5vw;
+    }
+    .titulo h3{
+        font-size: 7vw;
     }
 }
