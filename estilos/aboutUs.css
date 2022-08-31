@@ -76,7 +76,7 @@ body {
 }
 @media only screen and (max-width: 1200px){
     .foto{
-        height: 25vw;
+        height: 20vw;
         width: auto;
         padding: 2px;
     }    
