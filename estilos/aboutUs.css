@@ -60,7 +60,7 @@ body {
 
 /*Footer*/
 .fa{
-    font-size:4vw;
+    font-size:3vw;
     padding:0 8px;
     color: white;
 }
@@ -73,6 +73,15 @@ body {
         padding:0 8px;
         color: white;
     }
+    .foto{
+        height: 60vw;
+        width: auto;
+        padding: 2px;
+    }   
+    .card{
+        width: 100vw;
+        margin: auto;
+    }
 }
 @media only screen and (max-width: 1200px){
     .foto{
@@ -80,4 +89,19 @@ body {
         width: auto;
         padding: 2px;
     }    
+    .card{
+        width: 35vw;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 768px){   
+    .foto{
+        height: 30vw;
+        width: auto;
+        padding: 2px;
+    }  
+    .card{
+        width: 45vw;
+        margin: auto;
+    }
 }

@@ -67,17 +67,19 @@ body{
 }
 /*Galeria*/
 .foto{
-    height: 40vw;
+    height: 30vw;
     width: auto;
     padding: 2px;
 }
 .card{
     background-color: rgb(139, 9, 9);
     object-fit: cover;
+    width: 18vw;
+    margin: auto;
 }
 /*Footer*/
 .fa{
-    font-size:4vw;
+    font-size:3vw;
     padding:0 8px;
     color: white;
 }
@@ -86,7 +88,7 @@ body{
 }
 @media only screen and (max-width: 600px) {
     .foto{
-        height: 55vw;
+        height: 50vw;
     }
     .card{
         width: 60vw;
@@ -105,5 +107,19 @@ body{
     }
     .titulo h3{
         font-size: 7vw;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .card{
+        
+        width: 25vw;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .card{
+        
+        width: 40vw;
+        margin: auto;
     }
 }
